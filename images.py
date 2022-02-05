@@ -5,7 +5,7 @@ root.geometry('300x300')
 root.title("DevLab")
 root.iconbitmap("C:/Users/avpda/Dropbox/PC/Downloads/ProfileDevLab.ico")    
 
-my_img = ImageTk.PhotoImage(Image.open("bot.music.png"))
+my_img = ImageTk.PhotoImage(Image.open("images/bot.music.png"))
 my_label = Label(image=my_img)
 my_label.pack()
 
